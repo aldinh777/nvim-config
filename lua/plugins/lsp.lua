@@ -22,8 +22,8 @@ return {
     },
     opts = function(_, opts)
       local ok, schemastore = pcall(require, "schemastore")
+      opts.servers = opts.servers or {}
       if ok then
-        opts.servers = opts.servers or {}
         opts.servers.jsonls = {
           filetypes = { "json", "jsonc" },
           settings = {
