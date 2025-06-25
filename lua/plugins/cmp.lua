@@ -10,7 +10,7 @@ return {
     opts.completion = opts.completion or {}
     opts.completion.list = opts.completion.list or {}
     opts.completion.list.selection = {
-      preselect = false,
+      preselect = true,
       auto_insert = false,
     }
   end,
