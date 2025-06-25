@@ -22,6 +22,7 @@ return {
       ensure_installed = {
         "intelephense",
         "pint",
+        "css-lsp",
       },
     },
   },
