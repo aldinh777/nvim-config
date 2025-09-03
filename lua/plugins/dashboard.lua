@@ -26,5 +26,8 @@ return {
         header = banner,
       },
     },
+    image = {
+      enable = true,
+    },
   },
 }
