@@ -28,6 +28,11 @@ return {
     },
     image = {
       enable = true,
+      max_width = 8,
+      max_height = 4,
+      convert = {
+        args = { "-resize", "8x8" },
+      },
     },
   },
 }
