@@ -34,5 +34,16 @@ return {
         args = { "-resize", "8x8" },
       },
     },
+    picker = {
+      sources = {
+        explorer = {
+          layout = {
+            layout = {
+              position = "right",
+            },
+          },
+        },
+      },
+    },
   },
 }

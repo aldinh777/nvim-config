@@ -9,9 +9,9 @@
 
 vim.api.nvim_create_autocmd("ColorScheme", {
   callback = function()
-    vim.cmd([[
-      hi Normal guibg=none ctermbg=none
-      hi NormalFloat guibg=none ctermbg=none
-    ]])
+    -- vim.cmd([[
+    --   hi Normal guibg=none ctermbg=none
+    --   hi NormalFloat guibg=none ctermbg=none
+    -- ]])
   end,
 })
